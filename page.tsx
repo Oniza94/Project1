@@ -1,15 +1,15 @@
-import Header from "./components/header"
-import Footer from "./components/footer"
-import About from "./about-us/page"
+import Header from "../components/header"
+import Footer from "../components/footer"
 
-
-export default function projects() {
+export default function About() {
   return(
-    <>
-     <Header/> 
-     <Footer/>
-
-    </>
-      )
+    <div> 
+      <Header/>
+      <ul className="about"> *World of Emotions*
+      <li>^^Here you can share your thoughts without any hesitation^^</li>
+      </ul>
+      <Footer/>
+           
+    </div>
+  )
 }
-
