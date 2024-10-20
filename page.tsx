@@ -1,20 +1,17 @@
-import Header from "@/app/components/header";
-import Footer from "@/app/components/footer";
-import Link from "next/link"; 
+import Header from  "../components/header"
+import Footer from "../components/footer";
 
 
-export default function Contact() {
+export default function Home() {
   return(
     <div>
       <Header/>
-      <ul className="Detail"> **You can contact us through our Social Media Platforms**
-       <Link href="https://www.instagram.com">
-       <li>*INSTAGRAM</li> </Link>
-       <Link href="https://wwww.facebook.com"> <li>*FACEBOOK</li></Link>
-       <Link href="https://www.linkedin.com/in/oniza-fazaldad-37505b231?utm_source=share&utm_compaign+share.via&utm_content=profile&utm_medium=android_app">
-       <li>*LINKEDIN</li></Link>
-      </ul>    
-      <Footer/>
+      <ul className="introduction">~~WELCOME TO THE WORLD OF **WRITER HUB** CREATED BY ONIZA FAZAL~~
+        
+        
+    <h1>~~AS A WRITER YOU SHOULD NOT JUDGE, YOU SHOULD UNDERSTAND~~</h1>
+    </ul>
+    <Footer/>
     </div>
   )
 }
