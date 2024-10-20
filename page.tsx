@@ -1,17 +1,20 @@
-import Header from  "../components/header"
-import Footer from "../components/footer";
-
-
-export default function Home() {
+import Header from "../components/header"
+import Footer from"../components/footer"
+export default function Stories(){
   return(
+    
     <div>
       <Header/>
-      <ul className="introduction">~~WELCOME TO THE WORLD OF **WRITER HUB** CREATED BY ONIZA FAZAL~~
-        
-        
-    <h1>~~AS A WRITER YOU SHOULD NOT JUDGE, YOU SHOULD UNDERSTAND~~</h1>
-    </ul>
-    <Footer/>
+      <ul className="Stories_Counter"> ~~Read your favorite stories here~~
+      <li>*Horror</li>
+      <li>*Comedy</li>
+      <li>*Romance</li>
+      <li>*Love</li>
+      <li>*Real Stories</li>
+      <li>*Fiction</li>
+      <li>*Kids Counter</li>
+          </ul>
+          <Footer/>
     </div>
   )
 }
